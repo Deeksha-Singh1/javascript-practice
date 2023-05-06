@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(162, 197, 197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width:400px;
+  height: 500px;
+  background:rgb(60, 162, 162);
+  border-radius: 15px;
+  box-shadow: 4px 4px 30px rgb(154, 97, 107);
+  }
+
+  .container form{
+    width: 100%;
+    border: 1px solid rgb(82,74,235);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  } 
+  
+  .container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding :8px 10px;
+  }
+  
+
+
+
