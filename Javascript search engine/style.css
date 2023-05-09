@@ -21,6 +21,7 @@ body{
   background:rgb(60, 162, 162);
   border-radius: 15px;
   box-shadow: 4px 4px 30px rgb(154, 97, 107);
+  overflow-y: scroll;
   }
 
   .container form{
@@ -30,6 +31,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    background:white;
   } 
   
   .container form input{
@@ -40,6 +42,45 @@ body{
     font-size: 16px;
     font-weight: 600;
     padding :8px 10px;
+    background: white;
+  }
+
+  .container form i{
+    padding-left: 10px;
+  }
+
+  .product{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15px;
+  }
+
+  .product img{
+    width: 50px;
+    height:60px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .product .productDetails{
+    padding-left: 15px;
+  }
+
+  .product .productDetails h2{
+    font-size: 20px ;
+  }
+
+  .product .productDetails h3{
+    font-size: 18px ;
+  }
+
+  .product-list{
+    padding: 20px;
+  }
+  
+  .container::-webkit-scrollbar{
+    display: none;
   }
   
 
